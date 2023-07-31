@@ -21,9 +21,9 @@ export default async function handler(req, res) {
     }
 
     const videoURL =
-      'https://bootcamp-flavio.fra1.digitaloceanspaces.com/SampleVideo_1280x720_5mb.mp4'
+      'https://youtube-clone.nyc3.digitaloceanspaces.com/SampleVideo_1280x720_1mb.mp4'
     const thumbnailURL =
-      'https://bootcamp-flavio.fra1.digitaloceanspaces.com/dog.png'
+      'https://youtube-clone.nyc3.digitaloceanspaces.com/maxresdefault.jpg'
 
     const users = await prisma.user.findMany()
 

@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['localhost', 'bootcamp-flavio.fra1.digitaloceanspaces.com'],
+    domains: ['localhost', 'youtube-clone.nyc3.digitaloceanspaces.com'],
   },
 }
 
